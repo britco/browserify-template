@@ -7,7 +7,7 @@
 var staticRoot = '<%= STATIC_ROOT %>';
 ````
 
-If you call browserify-template with `{STATIC_ROOT: "foo"}`, it gets transformed to:
+If you call browserify-template with the data `{STATIC_ROOT: "foo"}`, it gets transformed to:
 
 ````
 var staticRoot = 'foo';
